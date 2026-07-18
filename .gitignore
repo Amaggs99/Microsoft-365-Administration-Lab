@@ -1,1 +1,15 @@
+# Credentials
 365-Credentials.txt
+*.env
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
