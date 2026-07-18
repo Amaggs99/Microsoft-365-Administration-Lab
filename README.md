@@ -1,7 +1,7 @@
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-2%2F10%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-3%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -15,7 +15,7 @@ This repository documents realistic Microsoft 365 administration scenarios perfo
 
 The project simulates day-to-day responsibilities commonly performed by IT Support Specialists, Help Desk Technicians, Desktop Support Technicians, and Microsoft 365 Administrators.
 
-Each ticket follows a standardized enterprise documentation format including objectives, scenarios, resolution steps, verification, business impact, best practices, screenshots, and skills demonstrated.
+Each ticket follows a structured enterprise documentation format including objectives, scenarios, resolution steps, verification, business impact, best practices, screenshots, and skills demonstrated.
 
 ---
 
@@ -59,15 +59,19 @@ Each ticket follows a standardized enterprise documentation format including obj
 - User Lifecycle Management
 - Identity and Access Management (IAM)
 - License Management
-- Password Administration
-- Session Revocation
-- Cloud Identity Management
-- Microsoft 365 Security Administration
+- Password Management
+- Account Management
+- Security Group Administration
+- Group Membership Management
+- Role-Based Access Control Concepts
+- Principle of Least Privilege
+- Multi-Factor Authentication (MFA)
+- Conditional Access
 - Exchange Online Administration
 - Shared Mailbox Administration
 - Distribution Group Administration
-- Multi-Factor Authentication (MFA)
-- Conditional Access
+- Microsoft 365 Security
+- Cloud Identity Management
 - Enterprise Documentation
 - PowerShell Administration
 
@@ -78,11 +82,12 @@ Each ticket follows a standardized enterprise documentation format including obj
 - Provision Microsoft 365 users
 - Assign and manage Microsoft 365 licenses
 - Reset passwords and manage user accounts
-- Configure Security Groups
-- Configure Shared Mailboxes
-- Configure Distribution Lists
-- Deploy Multi-Factor Authentication (MFA)
-- Configure Conditional Access Policies
+- Create and manage security groups
+- Manage security group membership
+- Configure shared mailboxes
+- Configure distribution groups
+- Deploy Multi-Factor Authentication
+- Configure Conditional Access policies
 - Troubleshoot Exchange Online mail flow
 - Perform user offboarding procedures
 
@@ -94,20 +99,20 @@ Each ticket follows a standardized enterprise documentation format including obj
 |---------|-------|--------|
 | M365-001 | [User Creation and License Assignment](Documentation/M365-001-User-Creation.md) | ✅ Completed |
 | M365-002 | [Password Reset and Account Management](Documentation/M365-002-Password-Reset-and-Account-Management.md) | ✅ Completed |
-| M365-003 | Security Groups | ⏳ Planned |
-| M365-004 | Shared Mailboxes | ⏳ Planned |
-| M365-005 | Distribution Lists | ⏳ Planned |
-| M365-006 | Multi-Factor Authentication | ⏳ Planned |
-| M365-007 | Conditional Access | ⏳ Planned |
+| M365-003 | [Security Group Creation and Membership Management](Documentation/M365-003-Security-Groups.md) | ✅ Completed |
+| M365-004 | Mailbox Management | ⏳ Planned |
+| M365-005 | Distribution Groups | ⏳ Planned |
+| M365-006 | Shared Mailboxes | ⏳ Planned |
+| M365-007 | Multi-Factor Authentication Deployment | ⏳ Planned |
 | M365-008 | Exchange Online Mail Flow Troubleshooting | ⏳ Planned |
-| M365-009 | Microsoft Entra ID Administration | ⏳ Planned |
+| M365-009 | Conditional Access | ⏳ Planned |
 | M365-010 | User Offboarding | ⏳ Planned |
 
 ---
 
 # Repository Structure
 
-```
+```text
 Microsoft-365-Administration-Lab/
 │
 ├── README.md
@@ -123,34 +128,103 @@ Microsoft-365-Administration-Lab/
 │   ├── M365-001-User-Creation.md
 │   ├── M365-002-Password-Reset-and-Account-Management.md
 │   ├── M365-003-Security-Groups.md
-│   ├── M365-004-Shared-Mailboxes.md
-│   ├── M365-005-Distribution-Lists.md
-│   ├── M365-006-MFA-Deployment.md
-│   ├── M365-007-Conditional-Access.md
+│   ├── M365-004-Mailbox-Management.md
+│   ├── M365-005-Distribution-Groups.md
+│   ├── M365-006-Shared-Mailboxes.md
+│   ├── M365-007-MFA-Deployment.md
 │   ├── M365-008-Mail-Flow-Troubleshooting.md
-│   ├── M365-009-Entra-ID-Administration.md
+│   ├── M365-009-Conditional-Access.md
 │   └── M365-010-User-Offboarding.md
 │
 └── Screenshots/
-    ├── M365-001/
-    ├── M365-002/
-    ├── M365-003/
-    ├── M365-004/
-    ├── M365-005/
-    ├── M365-006/
-    ├── M365-007/
-    ├── M365-008/
-    ├── M365-009/
-    └── M365-010/
+    ├── M365-001-User-Creation/
+    ├── M365-002-License-Assignment/
+    ├── M365-003-Password-Reset/
+    ├── M365-003-Security-Groups/
+    ├── M365-004-Mailbox-Management/
+    ├── M365-005-Distribution-Groups/
+    ├── M365-006-Shared-Mailboxes/
+    ├── M365-007-MFA-Deployment/
+    ├── M365-008-Mail-Flow-Troubleshooting/
+    ├── M365-009-Conditional-Access/
+    └── M365-010-User-Offboarding/
 ```
+
+---
+
+# Completed Labs
+
+## M365-001 — User Creation and License Assignment
+
+Created and configured a Microsoft 365 user account within the Microsoft 365 Admin Center and assigned the appropriate Microsoft 365 license.
+
+**Key Skills:**
+
+- Microsoft 365 user provisioning
+- User account configuration
+- License assignment
+- Microsoft 365 Admin Center
+- Cloud identity administration
+
+[View M365-001 Documentation](Documentation/M365-001-User-Creation.md)
+
+---
+
+## M365-002 — Password Reset and Account Management
+
+Performed an administrator-initiated password reset for a Microsoft 365 user, required the user to change the temporary password at the next sign-in, and verified successful account access.
+
+**Key Skills:**
+
+- Password administration
+- User account management
+- Identity and access management
+- Microsoft 365 Admin Center
+- End-user sign-in verification
+
+[View M365-002 Documentation](Documentation/M365-002-Password-Reset-and-Account-Management.md)
+
+---
+
+## M365-003 — Security Group Creation and Membership Management
+
+Created a Microsoft 365 security group for the Sales department and configured group membership by adding a user to the group.
+
+The configuration was verified through the Microsoft 365 Admin Center to confirm successful group creation and membership assignment.
+
+**Key Skills:**
+
+- Security group administration
+- Group membership management
+- Identity and access management
+- Role-based access control concepts
+- Principle of least privilege
+- Microsoft 365 Admin Center
+
+[View M365-003 Documentation](Documentation/M365-003-Security-Groups.md)
 
 ---
 
 # Learning Outcomes
 
-This repository demonstrates practical Microsoft 365 cloud administration skills through realistic enterprise support scenarios using Microsoft administrative tools and industry best practices.
+This repository demonstrates practical experience with Microsoft 365 cloud administration by documenting realistic enterprise support and administration scenarios using Microsoft's administrative tools and industry best practices.
 
 The objective is to build hands-on experience equivalent to common operational tasks performed in modern Microsoft 365 environments while maintaining professional documentation standards suitable for an IT portfolio.
+
+Through the completed labs, this project currently demonstrates practical experience with:
+
+- Microsoft 365 user provisioning
+- Microsoft 365 license assignment
+- Password reset procedures
+- User account management
+- Security group creation
+- Security group membership management
+- Identity and access management
+- Cloud-based administration
+- Administrative verification and troubleshooting
+- Enterprise technical documentation
+
+Additional Microsoft 365 administration scenarios will be added as the lab progresses.
 
 ---
 
