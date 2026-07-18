@@ -1,8 +1,8 @@
-\# M365-003 — Security Group Creation and Membership Management
+# M365-003 — Security Group Creation and Membership Management
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -14,35 +14,35 @@ This task demonstrates how security groups can be used to organize users and pro
 
 
 
-\---
+---
 
 
 
-\## Ticket Information
+## Ticket Information
 
 
 
-\*\*Ticket ID:\*\* M365-003
+*\*Ticket ID:\*\* M365-003
 
 
 
-\*\*Priority:\*\* Medium
+*\*Priority:\*\* Medium
 
 
 
-\*\*Category:\*\* Identity and Access Management
+*\*Category:\*\* Identity and Access Management
 
 
 
-\*\*Status:\*\* Completed
+*\*Status:\*\* Completed
 
 
 
-\---
+---
 
 
 
-\## Scenario
+## Scenario
 
 
 
@@ -62,11 +62,11 @@ The completed configuration should be verified through the Microsoft 365 Admin C
 
 
 
-\---
+---
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -92,15 +92,15 @@ The completed configuration should be verified through the Microsoft 365 Admin C
 
 
 
-\---
+---
 
 
 
-\## Resolution Steps
+## Resolution Steps
 
 
 
-\### 1. Configure the Security Group
+### 1. Configure the Security Group
 
 
 
@@ -112,11 +112,11 @@ Configured the following group information:
 
 
 
-\- \*\*Group Type:\*\* Security
+- \*\*Group Type:\*\* Security
 
-\- \*\*Name:\*\* Sales Team
+- \*\*Name:\*\* Sales Team
 
-\- \*\*Description:\*\* Security group for members of the Sales department.
+- \*\*Description:\*\* Security group for members of the Sales department.
 
 
 
@@ -124,11 +124,11 @@ Configured the following group information:
 
 
 
-\---
+---
 
 
 
-\### 2. Review Group Configuration Settings
+### 2. Review Group Configuration Settings
 
 
 
@@ -140,11 +140,11 @@ Continued through the security group creation process and reviewed the available
 
 
 
-\---
+---
 
 
 
-\### 3. Configure Role Assignment Settings
+### 3. Configure Role Assignment Settings
 
 
 
@@ -160,11 +160,11 @@ The \*\*Azure AD roles can be assigned to the group\*\* option was left disabled
 
 
 
-\---
+---
 
 
 
-\### 4. Review and Create the Security Group
+### 4. Review and Create the Security Group
 
 
 
@@ -176,13 +176,13 @@ Verified the following settings:
 
 
 
-\- \*\*Group Type:\*\* Security
+- \*\*Group Type:\*\* Security
 
-\- \*\*Name:\*\* Sales Team
+- \*\*Name:\*\* Sales Team
 
-\- \*\*Description:\*\* Security group for members of the Sales department.
+- \*\*Description:\*\* Security group for members of the Sales department.
 
-\- \*\*Role Assignment:\*\* Disabled
+- \*\*Role Assignment:\*\* Disabled
 
 
 
@@ -194,11 +194,11 @@ The configuration was confirmed and the security group was created.
 
 
 
-\---
+---
 
 
 
-\### 5. Verify Security Group Creation
+### 5. Verify Security Group Creation
 
 
 
@@ -210,11 +210,11 @@ Confirmed that the \*\*Sales Team\*\* security group was successfully created in
 
 
 
-\---
+---
 
 
 
-\### 6. Add Sarah Brown to the Security Group
+### 6. Add Sarah Brown to the Security Group
 
 
 
@@ -226,11 +226,11 @@ Selected \*\*Sarah Brown\*\* and added the account as a member of the security g
 
 
 
-\---
+---
 
 
 
-\### 7. Verify Group Membership
+### 7. Verify Group Membership
 
 
 
@@ -246,11 +246,11 @@ Confirmed that \*\*Sarah Brown\*\* appeared as a member of the \*\*Sales Team\*\
 
 
 
-\---
+---
 
 
 
-\## Verification
+## Verification
 
 
 
@@ -258,27 +258,27 @@ The following configuration was successfully verified:
 
 
 
-\- The \*\*Sales Team\*\* security group was created.
+- The \*\*Sales Team\*\* security group was created.
 
-\- The group type was configured as \*\*Security\*\*.
+- The group type was configured as \*\*Security\*\*.
 
-\- The group description was configured correctly.
+- The group description was configured correctly.
 
-\- Administrative role assignment was left disabled.
+- Administrative role assignment was left disabled.
 
-\- \*\*Sarah Brown\*\* was successfully added as a member.
+- \*\*Sarah Brown\*\* was successfully added as a member.
 
-\- The membership change was saved successfully.
+- The membership change was saved successfully.
 
-\- Sarah Brown appeared in the final group membership list.
-
-
-
-\---
+- Sarah Brown appeared in the final group membership list.
 
 
 
-\## Result
+---
+
+
+
+## Result
 
 
 
@@ -294,45 +294,45 @@ The Sales department now has a dedicated security group that can be used to mana
 
 
 
-\---
+---
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
-\- Microsoft 365 Administration
+- Microsoft 365 Administration
 
-\- Microsoft 365 Admin Center
+- Microsoft 365 Admin Center
 
-\- Security Group Administration
+- Security Group Administration
 
-\- Group Membership Management
+- Group Membership Management
 
-\- Identity and Access Management
+- Identity and Access Management
 
-\- User Access Management
+- User Access Management
 
-\- Microsoft Entra ID Concepts
+- Microsoft Entra ID Concepts
 
-\- Role-Based Access Concepts
+- Role-Based Access Concepts
 
-\- Administrative Configuration
+- Administrative Configuration
 
-\- Configuration Verification
+- Configuration Verification
 
-\- Technical Documentation
+- Technical Documentation
 
-\- Help Desk Administration
-
-
-
-\---
+- Help Desk Administration
 
 
 
-\## Screenshots
+---
+
+
+
+## Screenshots
 
 
 
