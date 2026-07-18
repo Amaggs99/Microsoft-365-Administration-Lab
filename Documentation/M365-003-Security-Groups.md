@@ -72,7 +72,7 @@ The completed configuration should be verified through the Microsoft 365 Admin C
 
 | Item | Value |
 
-|---|---|
+| --- | --- |
 
 | Platform | Microsoft 365 |
 
@@ -112,7 +112,7 @@ Configured the following group information:
 
 
 
-\- \*\*Group type:\*\* Security
+\- \*\*Group Type:\*\* Security
 
 \- \*\*Name:\*\* Sales Team
 
@@ -132,7 +132,7 @@ Configured the following group information:
 
 
 
-Continued through the security group configuration process and reviewed the available settings before creating the group.
+Continued through the security group creation process and reviewed the available configuration settings.
 
 
 
@@ -176,13 +176,13 @@ Verified the following settings:
 
 
 
-\- \*\*Group type:\*\* Security
+\- \*\*Group Type:\*\* Security
 
 \- \*\*Name:\*\* Sales Team
 
 \- \*\*Description:\*\* Security group for members of the Sales department.
 
-\- \*\*Role assignment:\*\* Disabled
+\- \*\*Role Assignment:\*\* Disabled
 
 
 
@@ -338,7 +338,7 @@ The Sales department now has a dedicated security group that can be used to mana
 
 | Screenshot | Description |
 
-|---|---|
+| --- | --- |
 
 | M365-003-01-Security-Group-Creation.png | Configuring the Sales Team security group name and description |
 
