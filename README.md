@@ -1,7 +1,7 @@
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-1%2F10%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-2%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -15,7 +15,7 @@ This repository documents realistic Microsoft 365 administration scenarios perfo
 
 The project simulates day-to-day responsibilities commonly performed by IT Support Specialists, Help Desk Technicians, Desktop Support Technicians, and Microsoft 365 Administrators.
 
-Each ticket follows a structured enterprise documentation format including objectives, scenarios, resolution steps, verification, business impact, best practices, screenshots, and skills demonstrated.
+Each ticket follows a standardized enterprise documentation format including objectives, scenarios, resolution steps, verification, business impact, best practices, screenshots, and skills demonstrated.
 
 ---
 
@@ -59,14 +59,15 @@ Each ticket follows a structured enterprise documentation format including objec
 - User Lifecycle Management
 - Identity and Access Management (IAM)
 - License Management
-- Password Management
-- Multi-Factor Authentication (MFA)
-- Conditional Access
+- Password Administration
+- Session Revocation
+- Cloud Identity Management
+- Microsoft 365 Security Administration
 - Exchange Online Administration
 - Shared Mailbox Administration
 - Distribution Group Administration
-- Microsoft 365 Security
-- Cloud Identity Management
+- Multi-Factor Authentication (MFA)
+- Conditional Access
 - Enterprise Documentation
 - PowerShell Administration
 
@@ -75,12 +76,12 @@ Each ticket follows a structured enterprise documentation format including objec
 # Lab Objectives
 
 - Provision Microsoft 365 users
-- Assign and manage licenses
+- Assign and manage Microsoft 365 licenses
 - Reset passwords and manage user accounts
 - Configure Security Groups
 - Configure Shared Mailboxes
 - Configure Distribution Lists
-- Deploy Multi-Factor Authentication
+- Deploy Multi-Factor Authentication (MFA)
 - Configure Conditional Access Policies
 - Troubleshoot Exchange Online mail flow
 - Perform user offboarding procedures
@@ -92,7 +93,7 @@ Each ticket follows a structured enterprise documentation format including objec
 | Ticket | Title | Status |
 |---------|-------|--------|
 | M365-001 | [User Creation and License Assignment](Documentation/M365-001-User-Creation.md) | ✅ Completed |
-| M365-002 | Password Reset and Account Management | ⏳ Planned |
+| M365-002 | [Password Reset and Account Management](Documentation/M365-002-Password-Reset-and-Account-Management.md) | ✅ Completed |
 | M365-003 | Security Groups | ⏳ Planned |
 | M365-004 | Shared Mailboxes | ⏳ Planned |
 | M365-005 | Distribution Lists | ⏳ Planned |
@@ -117,10 +118,10 @@ Microsoft-365-Administration-Lab/
 │   └── Icons/
 │
 ├── Documentation/
-│   ├── M365-Ticket-Tracker.md
 │   ├── Commands-Used.md
+│   ├── M365-Ticket-Tracker.md
 │   ├── M365-001-User-Creation.md
-│   ├── M365-002-Password-Reset.md
+│   ├── M365-002-Password-Reset-and-Account-Management.md
 │   ├── M365-003-Security-Groups.md
 │   ├── M365-004-Shared-Mailboxes.md
 │   ├── M365-005-Distribution-Lists.md
@@ -147,7 +148,7 @@ Microsoft-365-Administration-Lab/
 
 # Learning Outcomes
 
-This repository demonstrates practical experience with Microsoft 365 cloud administration by documenting realistic enterprise support scenarios using Microsoft's administrative tools and industry best practices.
+This repository demonstrates practical Microsoft 365 cloud administration skills through realistic enterprise support scenarios using Microsoft administrative tools and industry best practices.
 
 The objective is to build hands-on experience equivalent to common operational tasks performed in modern Microsoft 365 environments while maintaining professional documentation standards suitable for an IT portfolio.
 
