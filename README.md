@@ -1,4 +1,3 @@
-````markdown
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
@@ -308,6 +307,3 @@ Additional Microsoft 365 administration scenarios will be added as the lab progr
 * Microsoft Entra Admin Center
 * Exchange Admin Center
 * Microsoft Graph Documentation
-
-```
-```
