@@ -1,7 +1,7 @@
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-3%2F10%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-4%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -68,6 +68,10 @@ Each ticket follows a structured enterprise documentation format including objec
 - Multi-Factor Authentication (MFA)
 - Conditional Access
 - Exchange Online Administration
+- Mailbox Administration
+- Mailbox Delegation
+- Full Access Permission Management
+- Send As Permission Management
 - Shared Mailbox Administration
 - Distribution Group Administration
 - Microsoft 365 Security
@@ -84,6 +88,8 @@ Each ticket follows a structured enterprise documentation format including objec
 - Reset passwords and manage user accounts
 - Create and manage security groups
 - Manage security group membership
+- Configure mailbox delegation permissions
+- Manage Full Access and Send As mailbox permissions
 - Configure shared mailboxes
 - Configure distribution groups
 - Deploy Multi-Factor Authentication
@@ -100,7 +106,7 @@ Each ticket follows a structured enterprise documentation format including objec
 | M365-001 | [User Creation and License Assignment](Documentation/M365-001-User-Creation.md) | ✅ Completed |
 | M365-002 | [Password Reset and Account Management](Documentation/M365-002-Password-Reset-and-Account-Management.md) | ✅ Completed |
 | M365-003 | [Security Group Creation and Membership Management](Documentation/M365-003-Security-Groups.md) | ✅ Completed |
-| M365-004 | Mailbox Management | ⏳ Planned |
+| M365-004 | [Mailbox Management](Documentation/M365-004-Mailbox-Management.md) | ✅ Completed |
 | M365-005 | Distribution Groups | ⏳ Planned |
 | M365-006 | Shared Mailboxes | ⏳ Planned |
 | M365-007 | Multi-Factor Authentication Deployment | ⏳ Planned |
@@ -138,8 +144,7 @@ Microsoft-365-Administration-Lab/
 │
 └── Screenshots/
     ├── M365-001-User-Creation/
-    ├── M365-002-License-Assignment/
-    ├── M365-003-Password-Reset/
+    ├── M365-002-Password-Reset/
     ├── M365-003-Security-Groups/
     ├── M365-004-Mailbox-Management/
     ├── M365-005-Distribution-Groups/
@@ -205,6 +210,27 @@ The configuration was verified through the Microsoft 365 Admin Center to confirm
 
 ---
 
+## M365-004 — Mailbox Management
+
+Configured mailbox delegation permissions for a Microsoft 365 user through the Exchange Admin Center.
+
+Granted **Read and Manage (Full Access)** and **Send As** permissions to an authorized delegate and verified that both permissions were successfully assigned.
+
+**Key Skills:**
+
+- Exchange Online administration
+- Exchange Admin Center
+- Mailbox administration
+- Mailbox delegation
+- Full Access permission management
+- Send As permission management
+- Access control
+- Administrative verification
+
+[View M365-004 Documentation](Documentation/M365-004-Mailbox-Management.md)
+
+---
+
 # Learning Outcomes
 
 This repository demonstrates practical experience with Microsoft 365 cloud administration by documenting realistic enterprise support and administration scenarios using Microsoft's administrative tools and industry best practices.
@@ -220,6 +246,11 @@ Through the completed labs, this project currently demonstrates practical experi
 - Security group creation
 - Security group membership management
 - Identity and access management
+- Exchange Online administration
+- Mailbox administration
+- Mailbox delegation
+- Full Access permission management
+- Send As permission management
 - Cloud-based administration
 - Administrative verification and troubleshooting
 - Enterprise technical documentation
