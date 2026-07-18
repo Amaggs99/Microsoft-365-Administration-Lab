@@ -29,7 +29,7 @@ The account password needed to be reset while ensuring the user changed their pa
 ## Environment
 
 | Item | Value |
-|------|-------|
+|---|---|
 | Tenant | Maggs777.onmicrosoft.com |
 | Platform | Microsoft 365 Business Premium |
 | Administrator | Austin Maggs |
@@ -48,6 +48,8 @@ Opened the Microsoft 365 Admin Center and navigated to:
 
 Verified the user account before making administrative changes.
 
+![User Account Overview](../Screenshots/M365-002-Password-Reset/01-User-Account-Overview.png)
+
 ---
 
 ## Step 2 — Reset Password
@@ -56,13 +58,19 @@ Reset the user's password and enabled:
 
 - Require this user to change their password when they first sign in.
 
+![Password Reset Configuration](../Screenshots/M365-002-Password-Reset/02-Password-Reset-Configuration.png)
+
 The password reset was completed successfully.
+
+![Password Reset Confirmation](../Screenshots/M365-002-Password-Reset/03-Password-Reset-Confirmation.png)
 
 ---
 
 ## Step 3 — Sign Out of All Sessions
 
 Signed the user out of all active Microsoft 365 sessions to invalidate existing authentication tokens before the next sign-in.
+
+![Sign Out All Sessions](../Screenshots/M365-002-Password-Reset/04-Sign-Out-All-Sessions.png)
 
 ---
 
@@ -72,7 +80,11 @@ Signed in as the user using the temporary password.
 
 Confirmed Microsoft required a password change before granting access to Microsoft 365.
 
+![Password Change Required at First Sign-In](../Screenshots/M365-002-Password-Reset/05-Password-Change-Required-at-First-Sign-In.png)
+
 After creating a new password, verified successful access to the Microsoft 365 portal.
+
+![Successful Microsoft 365 Sign-In](../Screenshots/M365-002-Password-Reset/06-Successful-Microsoft-365-Sign-In.png)
 
 ---
 
@@ -106,7 +118,7 @@ Restored secure access to the user's Microsoft 365 account while ensuring accoun
 ## Screenshots
 
 | Screenshot | Description |
-|------------|-------------|
+|---|---|
 | 01-User-Account-Overview.png | User account prior to password reset. |
 | 02-Password-Reset-Configuration.png | Password reset configuration with password change requirement enabled. |
 | 03-Password-Reset-Confirmation.png | Successful password reset confirmation. |

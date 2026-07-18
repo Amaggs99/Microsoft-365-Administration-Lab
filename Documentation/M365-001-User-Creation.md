@@ -29,7 +29,7 @@ The Help Desk received a request to provision a Microsoft 365 account, assign th
 ## Environment
 
 | Item | Value |
-|------|-------|
+|---|---|
 | Company | Maggs Technology Services |
 | Tenant | Maggs777.onmicrosoft.com |
 | Platform | Microsoft 365 Business Premium |
@@ -65,9 +65,7 @@ Enabled the following security settings:
 
 These settings follow Microsoft security best practices by ensuring every newly provisioned account begins with a strong password that only the end user will know after first login.
 
-**Screenshot**
-
-`01-Create-User-Basics.png`
+![Create User Basics](../Screenshots/M365-001-User-Creation/01-User-Basics.png)
 
 ---
 
@@ -88,9 +86,7 @@ This license provides access to:
 
 The user's usage location was configured as **Canada** before license assignment.
 
-**Screenshot**
-
-`02-License-Assignment.png`
+![License Assignment](../Screenshots/M365-001-User-Creation/02-License-Assignment.png)
 
 ---
 
@@ -108,11 +104,9 @@ Administrative permissions were left at the default **User (No Administration Ac
 
 Following the Principle of Least Privilege ensures users receive only the permissions required to perform their job responsibilities.
 
-**Screenshots**
+![Optional Settings](../Screenshots/M365-001-User-Creation/03-Optional-Settings.png)
 
-`03-Optional-Settings.png`
-
-`04-Profile-Information.png`
+![Profile Information](../Screenshots/M365-001-User-Creation/04-Profile-Information.png)
 
 ---
 
@@ -133,11 +127,9 @@ After verification, the account was successfully created.
 
 A temporary password was automatically generated for first-time sign-in.
 
-**Screenshots**
+![Review and Create](../Screenshots/M365-001-User-Creation/05-Review-and-Create.png)
 
-`05-Review-and-Create.png`
-
-`06-Temporary-Password.png`
+![Temporary Password Redacted](../Screenshots/M365-001-User-Creation/06-Temporary-Password-Redacted.png)
 
 > **Note:** Temporary passwords should never be publicly disclosed. Any passwords shown in repository screenshots should be redacted before publication.
 
@@ -154,9 +146,7 @@ Confirmed:
 - Standard User role applied
 - Account ready for employee onboarding
 
-**Screenshot**
-
-`07-Active-Users.png`
+![Active Users](../Screenshots/M365-001-User-Creation/07-Active-Users.png)
 
 ---
 
@@ -199,13 +189,13 @@ Applying the Principle of Least Privilege minimizes security risk by granting on
 ## Screenshots
 
 | Screenshot | Description |
-|------------|-------------|
-| 01-Create-User-Basics.png | Configure the new user's basic information. |
+|---|---|
+| 01-User-Basics.png | Configure the new user's basic information. |
 | 02-License-Assignment.png | Assign Microsoft 365 Business Premium license. |
 | 03-Optional-Settings.png | Review optional configuration settings. |
 | 04-Profile-Information.png | Configure organizational profile information. |
 | 05-Review-and-Create.png | Review all settings before creating the account. |
-| 06-Temporary-Password.png | Temporary password generated after account creation *(redacted)*. |
+| 06-Temporary-Password-Redacted.png | Temporary password generated after account creation *(redacted)*. |
 | 07-Active-Users.png | Verify successful user creation in Active Users. |
 
 ---
