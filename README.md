@@ -1,7 +1,8 @@
+````markdown
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-4%2F10%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-5%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -68,12 +69,20 @@ Each ticket follows a structured enterprise documentation format including objec
 - Multi-Factor Authentication (MFA)
 - Conditional Access
 - Exchange Online Administration
+- Exchange Admin Center
 - Mailbox Administration
 - Mailbox Delegation
 - Full Access Permission Management
 - Send As Permission Management
 - Shared Mailbox Administration
 - Distribution Group Administration
+- Distribution List Management
+- Group Creation and Configuration
+- Group Ownership Management
+- Group Membership Management
+- Email Distribution Management
+- Access Control
+- Administrative Verification
 - Microsoft 365 Security
 - Cloud Identity Management
 - Enterprise Documentation
@@ -107,7 +116,7 @@ Each ticket follows a structured enterprise documentation format including objec
 | M365-002 | [Password Reset and Account Management](Documentation/M365-002-Password-Reset-and-Account-Management.md) | ✅ Completed |
 | M365-003 | [Security Group Creation and Membership Management](Documentation/M365-003-Security-Groups.md) | ✅ Completed |
 | M365-004 | [Mailbox Management](Documentation/M365-004-Mailbox-Management.md) | ✅ Completed |
-| M365-005 | Distribution Groups | ⏳ Planned |
+| M365-005 | [Distribution Group Creation and Management](Documentation/M365-005-Distribution-Groups.md) | ✅ Completed |
 | M365-006 | Shared Mailboxes | ⏳ Planned |
 | M365-007 | Multi-Factor Authentication Deployment | ⏳ Planned |
 | M365-008 | Exchange Online Mail Flow Troubleshooting | ⏳ Planned |
@@ -153,7 +162,7 @@ Microsoft-365-Administration-Lab/
     ├── M365-008-Mail-Flow-Troubleshooting/
     ├── M365-009-Conditional-Access/
     └── M365-010-User-Offboarding/
-```
+````
 
 ---
 
@@ -165,11 +174,11 @@ Created and configured a Microsoft 365 user account within the Microsoft 365 Adm
 
 **Key Skills:**
 
-- Microsoft 365 user provisioning
-- User account configuration
-- License assignment
-- Microsoft 365 Admin Center
-- Cloud identity administration
+* Microsoft 365 user provisioning
+* User account configuration
+* License assignment
+* Microsoft 365 Admin Center
+* Cloud identity administration
 
 [View M365-001 Documentation](Documentation/M365-001-User-Creation.md)
 
@@ -181,11 +190,11 @@ Performed an administrator-initiated password reset for a Microsoft 365 user, re
 
 **Key Skills:**
 
-- Password administration
-- User account management
-- Identity and access management
-- Microsoft 365 Admin Center
-- End-user sign-in verification
+* Password administration
+* User account management
+* Identity and access management
+* Microsoft 365 Admin Center
+* End-user sign-in verification
 
 [View M365-002 Documentation](Documentation/M365-002-Password-Reset-and-Account-Management.md)
 
@@ -199,12 +208,12 @@ The configuration was verified through the Microsoft 365 Admin Center to confirm
 
 **Key Skills:**
 
-- Security group administration
-- Group membership management
-- Identity and access management
-- Role-based access control concepts
-- Principle of least privilege
-- Microsoft 365 Admin Center
+* Security group administration
+* Group membership management
+* Identity and access management
+* Role-based access control concepts
+* Principle of least privilege
+* Microsoft 365 Admin Center
 
 [View M365-003 Documentation](Documentation/M365-003-Security-Groups.md)
 
@@ -218,16 +227,41 @@ Granted **Read and Manage (Full Access)** and **Send As** permissions to an auth
 
 **Key Skills:**
 
-- Exchange Online administration
-- Exchange Admin Center
-- Mailbox administration
-- Mailbox delegation
-- Full Access permission management
-- Send As permission management
-- Access control
-- Administrative verification
+* Exchange Online administration
+* Exchange Admin Center
+* Mailbox administration
+* Mailbox delegation
+* Full Access permission management
+* Send As permission management
+* Access control
+* Administrative verification
 
 [View M365-004 Documentation](Documentation/M365-004-Mailbox-Management.md)
+
+---
+
+## M365-005 — Distribution Group Creation and Management
+
+Created and configured the **IT Support Team** distribution group through the Exchange Admin Center to provide a centralized email address for team communication and service-related announcements.
+
+Configured **Austin Maggs** as the group owner, added **Austin Maggs** and **Sarah Brown** as members, assigned **[itsupport@Maggs777.onmicrosoft.com](mailto:itsupport@Maggs777.onmicrosoft.com)** as the group email address, disabled external senders, and configured both joining and leaving policies as **Closed**.
+
+The completed configuration was verified in the Exchange Admin Center to confirm that the distribution group was successfully created and available within Exchange Online.
+
+**Key Skills:**
+
+* Exchange Online administration
+* Exchange Admin Center
+* Distribution group administration
+* Distribution list management
+* Group creation and configuration
+* Group ownership management
+* Group membership management
+* Email distribution management
+* Access control
+* Administrative verification
+
+[View M365-005 Documentation](Documentation/M365-005-Distribution-Groups.md)
 
 ---
 
@@ -239,21 +273,29 @@ The objective is to build hands-on experience equivalent to common operational t
 
 Through the completed labs, this project currently demonstrates practical experience with:
 
-- Microsoft 365 user provisioning
-- Microsoft 365 license assignment
-- Password reset procedures
-- User account management
-- Security group creation
-- Security group membership management
-- Identity and access management
-- Exchange Online administration
-- Mailbox administration
-- Mailbox delegation
-- Full Access permission management
-- Send As permission management
-- Cloud-based administration
-- Administrative verification and troubleshooting
-- Enterprise technical documentation
+* Microsoft 365 user provisioning
+* Microsoft 365 license assignment
+* Password reset procedures
+* User account management
+* Security group creation
+* Security group membership management
+* Identity and access management
+* Exchange Online administration
+* Exchange Admin Center
+* Mailbox administration
+* Mailbox delegation
+* Full Access permission management
+* Send As permission management
+* Distribution group administration
+* Distribution list management
+* Group creation and configuration
+* Group ownership management
+* Group membership management
+* Email distribution management
+* Access control
+* Cloud-based administration
+* Administrative verification and troubleshooting
+* Enterprise technical documentation
 
 Additional Microsoft 365 administration scenarios will be added as the lab progresses.
 
@@ -261,8 +303,11 @@ Additional Microsoft 365 administration scenarios will be added as the lab progr
 
 # References
 
-- Microsoft Learn
-- Microsoft 365 Admin Center
-- Microsoft Entra Admin Center
-- Exchange Admin Center
-- Microsoft Graph Documentation
+* Microsoft Learn
+* Microsoft 365 Admin Center
+* Microsoft Entra Admin Center
+* Exchange Admin Center
+* Microsoft Graph Documentation
+
+```
+```
