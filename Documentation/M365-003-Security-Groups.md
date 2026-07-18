@@ -72,23 +72,23 @@ The completed configuration should be verified through the Microsoft 365 Admin C
 
 | Item | Value |
 
-|------|-------|
+|---|---|
 
-| Organization | Maggs Technology Services |
-
-| Tenant | Maggs777.onmicrosoft.com |
-
-| Platform | Microsoft 365 Business Premium |
+| Platform | Microsoft 365 |
 
 | Administration Portal | Microsoft 365 Admin Center |
 
-| Group Type | Security Group |
+| Group Type | Security |
 
 | Group Name | Sales Team |
 
-| Test User | Sarah Brown |
+| Group Description | Security group for members of the Sales department. |
+
+| Member | Sarah Brown |
 
 | User Principal Name | sbrown@Maggs777.onmicrosoft.com |
+
+| Role Assignment | Disabled |
 
 
 
@@ -100,19 +100,23 @@ The completed configuration should be verified through the Microsoft 365 Admin C
 
 
 
-\### Step 1 — Navigate to Security Group Creation
+\### 1. Configure the Security Group
 
 
 
-Opened the \*\*Microsoft 365 Admin Center\*\* and navigated to:
+Navigated to the Microsoft 365 Admin Center and started the process of creating a new security group.
 
 
 
-\*\*Teams \& groups → Active teams \& groups\*\*
+Configured the following group information:
 
 
 
-Selected the option to create a new \*\*Security group\*\*.
+\- \*\*Group type:\*\* Security
+
+\- \*\*Name:\*\* Sales Team
+
+\- \*\*Description:\*\* Security group for members of the Sales department.
 
 
 
@@ -124,23 +128,11 @@ Selected the option to create a new \*\*Security group\*\*.
 
 
 
-\### Step 2 — Configure Security Group Details
+\### 2. Review Group Configuration Settings
 
 
 
-Configured the new security group with the following information:
-
-
-
-\*\*Group Name:\*\* Sales Team
-
-
-
-\*\*Description:\*\* Security group for members of the Sales department.
-
-
-
-The group was created as a standard security group for managing membership and access to organizational resources.
+Continued through the security group configuration process and reviewed the available settings before creating the group.
 
 
 
@@ -152,15 +144,15 @@ The group was created as a standard security group for managing membership and a
 
 
 
-\### Step 3 — Configure Group Settings
+\### 3. Configure Role Assignment Settings
 
 
 
-Reviewed the security group's role assignment settings.
+Reviewed the role assignment option for the security group.
 
 
 
-The option to allow Microsoft Entra ID roles to be assigned to the group was left disabled because the group is intended for standard resource access management rather than administrative role assignment.
+The \*\*Azure AD roles can be assigned to the group\*\* option was left disabled because the Sales Team group is intended for standard security group membership and resource access rather than administrative role assignment.
 
 
 
@@ -172,37 +164,33 @@ The option to allow Microsoft Entra ID roles to be assigned to the group was lef
 
 
 
-\### Step 4 — Review and Create the Security Group
+\### 4. Review and Create the Security Group
 
 
 
-Reviewed the security group configuration before deployment.
+Reviewed the final group configuration before creation.
 
 
 
-The following settings were confirmed:
+Verified the following settings:
 
 
 
-| Setting | Configuration |
+\- \*\*Group type:\*\* Security
 
-|---------|---------------|
+\- \*\*Name:\*\* Sales Team
 
-| Group Type | Security |
+\- \*\*Description:\*\* Security group for members of the Sales department.
 
-| Name | Sales Team |
-
-| Description | Security group for members of the Sales department |
-
-| Role Assignment | Disabled |
+\- \*\*Role assignment:\*\* Disabled
 
 
 
-The group was then created.
+The configuration was confirmed and the security group was created.
 
 
 
-!\[Review Security Group](../Screenshots/M365-003-Security-Groups/M365-003-04-Review-and-Create-Security-Group.png)
+!\[Review and Create Security Group](../Screenshots/M365-003-Security-Groups/M365-003-04-Review-and-Create-Security-Group.png)
 
 
 
@@ -210,15 +198,11 @@ The group was then created.
 
 
 
-\### Step 5 — Verify Security Group Creation
+\### 5. Verify Security Group Creation
 
 
 
-The Microsoft 365 Admin Center confirmed that the \*\*Sales Team\*\* security group was successfully created.
-
-
-
-The group was then opened from the Active teams and groups interface to configure its membership.
+Confirmed that the \*\*Sales Team\*\* security group was successfully created in the Microsoft 365 tenant.
 
 
 
@@ -230,19 +214,31 @@ The group was then opened from the Active teams and groups interface to configur
 
 
 
-\### Step 6 — Add User to Security Group
+\### 6. Add Sarah Brown to the Security Group
 
 
 
-Opened the \*\*Members\*\* configuration for the Sales Team security group.
+Opened the \*\*Sales Team\*\* security group and navigated to the group membership settings.
 
 
 
-Selected \*\*Sarah Brown\*\* and added the account to the group.
+Selected \*\*Sarah Brown\*\* and added the account as a member of the security group.
 
 
 
-The Microsoft 365 Admin Center confirmed that the membership configuration was successfully saved.
+\---
+
+
+
+\### 7. Verify Group Membership
+
+
+
+Verified that the membership change was successfully saved.
+
+
+
+Confirmed that \*\*Sarah Brown\*\* appeared as a member of the \*\*Sales Team\*\* security group.
 
 
 
@@ -258,23 +254,23 @@ The Microsoft 365 Admin Center confirmed that the membership configuration was s
 
 
 
-The following checks were performed to verify successful completion of the task:
+The following configuration was successfully verified:
 
 
 
-\- Confirmed the \*\*Sales Team\*\* security group was successfully created.
+\- The \*\*Sales Team\*\* security group was created.
 
-\- Confirmed the group type was configured as \*\*Security\*\*.
+\- The group type was configured as \*\*Security\*\*.
 
-\- Confirmed administrative role assignment was disabled.
+\- The group description was configured correctly.
 
-\- Confirmed the group appeared in the Microsoft 365 Admin Center.
+\- Administrative role assignment was left disabled.
 
-\- Confirmed \*\*Sarah Brown\*\* was successfully added as a member.
+\- \*\*Sarah Brown\*\* was successfully added as a member.
 
-\- Confirmed the group displayed \*\*1 member\*\*.
+\- The membership change was saved successfully.
 
-\- Confirmed the Microsoft 365 Admin Center displayed a \*\*Saved\*\* confirmation after the membership change.
+\- Sarah Brown appeared in the final group membership list.
 
 
 
@@ -286,75 +282,15 @@ The following checks were performed to verify successful completion of the task:
 
 
 
-The \*\*Sales Team\*\* security group was successfully created and configured.
+The \*\*Sales Team\*\* security group was successfully created and configured in the Microsoft 365 Admin Center.
 
 
 
-The user \*\*Sarah Brown\*\* was successfully added as a member of the group.
+The user \*\*Sarah Brown\*\* was successfully added to the group, and the final membership configuration was verified.
 
 
 
-The security group can now be used as part of role-based access and resource management within the Microsoft 365 environment.
-
-
-
-\---
-
-
-
-\## Business Impact
-
-
-
-Security groups allow administrators to manage access to organizational resources based on group membership rather than assigning permissions individually to each user.
-
-
-
-This provides several operational benefits:
-
-
-
-\- Simplifies access management
-
-\- Supports role-based access control principles
-
-\- Reduces repetitive administrative tasks
-
-\- Improves consistency when assigning resource permissions
-
-\- Simplifies onboarding and offboarding workflows
-
-\- Supports the principle of least privilege when properly configured
-
-
-
-For example, access to resources used by the Sales department can be assigned to the \*\*Sales Team\*\* security group. Administrators can then manage access by adding or removing users from the group.
-
-
-
-\---
-
-
-
-\## Best Practices
-
-
-
-\- Use descriptive and standardized group names.
-
-\- Document the business purpose of each security group.
-
-\- Assign access through groups instead of directly to individual users whenever possible.
-
-\- Regularly review group membership.
-
-\- Remove users who no longer require access.
-
-\- Avoid enabling role-assignable groups unless administrative role assignment is specifically required.
-
-\- Follow the principle of least privilege when assigning resource permissions.
-
-\- Maintain documentation for security-sensitive group changes.
+The Sales department now has a dedicated security group that can be used to manage access to organizational resources based on group membership.
 
 
 
@@ -370,23 +306,25 @@ For example, access to resources used by the Sales department can be assigned to
 
 \- Microsoft 365 Admin Center
 
-\- Microsoft Entra ID
-
 \- Security Group Administration
 
 \- Group Membership Management
 
-\- Identity and Access Management (IAM)
-
-\- Role-Based Access Control Concepts
-
-\- Principle of Least Privilege
+\- Identity and Access Management
 
 \- User Access Management
 
-\- Cloud Administration
+\- Microsoft Entra ID Concepts
 
-\- Enterprise Documentation
+\- Role-Based Access Concepts
+
+\- Administrative Configuration
+
+\- Configuration Verification
+
+\- Technical Documentation
+
+\- Help Desk Administration
 
 
 
@@ -394,17 +332,23 @@ For example, access to resources used by the Sales department can be assigned to
 
 
 
-\## Conclusion
+\## Screenshots
 
 
 
-This ticket demonstrated the creation and management of a Microsoft 365 security group.
+| Screenshot | Description |
 
+|---|---|
 
+| M365-003-01-Security-Group-Creation.png | Configuring the Sales Team security group name and description |
 
-The \*\*Sales Team\*\* security group was created through the Microsoft 365 Admin Center, configured without administrative role assignment, and updated to include \*\*Sarah Brown\*\* as a member.
+| M365-003-02-Configure-Security-Group.png | Reviewing the security group configuration process |
 
+| M365-003-03-Security-Group-Settings.png | Reviewing security group role assignment settings |
 
+| M365-003-04-Review-and-Create-Security-Group.png | Reviewing the final security group configuration before creation |
 
-The completed task demonstrates practical experience with security group administration and group-based access management in a Microsoft 365 environment.
+| M365-003-05-Security-Group-Created.png | Confirmation that the Sales Team security group was successfully created |
+
+| M365-003-06-Verify-Security-Group-Membership.png | Verification that Sarah Brown was successfully added to the Sales Team security group |
 
