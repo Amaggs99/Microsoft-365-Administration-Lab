@@ -1,7 +1,7 @@
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-5%2F10%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-6%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -74,6 +74,9 @@ Each ticket follows a structured enterprise documentation format including objec
 - Full Access Permission Management
 - Send As Permission Management
 - Shared Mailbox Administration
+- Shared Mailbox Creation and Configuration
+- User Access Management
+- Permission Assignment
 - Distribution Group Administration
 - Distribution List Management
 - Group Creation and Configuration
@@ -116,7 +119,7 @@ Each ticket follows a structured enterprise documentation format including objec
 | M365-003 | [Security Group Creation and Membership Management](Documentation/M365-003-Security-Groups.md) | ✅ Completed |
 | M365-004 | [Mailbox Management](Documentation/M365-004-Mailbox-Management.md) | ✅ Completed |
 | M365-005 | [Distribution Group Creation and Management](Documentation/M365-005-Distribution-Groups.md) | ✅ Completed |
-| M365-006 | Shared Mailboxes | ⏳ Planned |
+| M365-006 | [Shared Mailbox Creation and Management](Documentation/M365-006-Shared-Mailboxes.md) | ✅ Completed |
 | M365-007 | Multi-Factor Authentication Deployment | ⏳ Planned |
 | M365-008 | Exchange Online Mail Flow Troubleshooting | ⏳ Planned |
 | M365-009 | Conditional Access | ⏳ Planned |
@@ -161,7 +164,7 @@ Microsoft-365-Administration-Lab/
     ├── M365-008-Mail-Flow-Troubleshooting/
     ├── M365-009-Conditional-Access/
     └── M365-010-User-Offboarding/
-````
+```
 
 ---
 
@@ -264,6 +267,32 @@ The completed configuration was verified in the Exchange Admin Center to confirm
 
 ---
 
+## M365-006 — Shared Mailbox Creation and Management
+
+Created and configured the **IT Help Desk** shared mailbox through the Exchange Admin Center to provide a centralized mailbox for IT Help Desk communications.
+
+Configured **[helpdesk@Maggs777.onmicrosoft.com](mailto:helpdesk@Maggs777.onmicrosoft.com)** as the shared mailbox email address and granted **Austin Maggs** and **Sarah Brown** both **Read and Manage (Full Access)** and **Send As** permissions.
+
+The completed configuration was verified in the Exchange Admin Center to confirm that the mailbox was successfully provisioned as a **SharedMailbox** and that both users were assigned the required mailbox delegation permissions.
+
+**Key Skills:**
+
+* Exchange Online administration
+* Exchange Admin Center
+* Shared mailbox administration
+* Shared mailbox creation and configuration
+* Mailbox delegation
+* Full Access permission management
+* Send As permission management
+* User access management
+* Access control
+* Permission assignment
+* Administrative verification
+
+[View M365-006 Documentation](Documentation/M365-006-Shared-Mailboxes.md)
+
+---
+
 # Learning Outcomes
 
 This repository demonstrates practical experience with Microsoft 365 cloud administration by documenting realistic enterprise support and administration scenarios using Microsoft's administrative tools and industry best practices.
@@ -291,6 +320,10 @@ Through the completed labs, this project currently demonstrates practical experi
 * Group ownership management
 * Group membership management
 * Email distribution management
+* Shared mailbox administration
+* Shared mailbox creation and configuration
+* User access management
+* Permission assignment
 * Access control
 * Cloud-based administration
 * Administrative verification and troubleshooting
