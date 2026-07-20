@@ -1,7 +1,7 @@
 # Microsoft 365 Administration Lab
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-9%2F10%20Completed-brightgreen)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-10%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -57,12 +57,19 @@ Each ticket follows a structured enterprise documentation format including objec
 - Microsoft Entra ID Administration
 - User Provisioning
 - User Lifecycle Management
+- User Offboarding
+- Employee Offboarding Procedures
 - Identity and Access Management (IAM)
 - License Management
+- License Reclamation
 - Password Management
 - Account Management
+- Account Disablement
+- Sign-In Blocking
+- Session Revocation
 - Security Group Administration
 - Group Membership Management
+- Group Access Removal
 - Role-Based Access Control Concepts
 - Principle of Least Privilege
 - Multi-Factor Authentication (MFA)
@@ -102,6 +109,9 @@ Each ticket follows a structured enterprise documentation format including objec
 - Send As Permission Management
 - Shared Mailbox Administration
 - Shared Mailbox Creation and Configuration
+- User Mailbox to Shared Mailbox Conversion
+- Mailbox Data Preservation
+- Business Continuity
 - User Access Management
 - Permission Assignment
 - Distribution Group Administration
@@ -152,7 +162,7 @@ Each ticket follows a structured enterprise documentation format including objec
 | M365-007 | [Multi-Factor Authentication Deployment](Documentation/M365-007-MFA-Deployment.md) | ✅ Completed |
 | M365-008 | [Exchange Online Mail Flow Troubleshooting](Documentation/M365-008-Mail-Flow-Troubleshooting.md) | ✅ Completed |
 | M365-009 | [Conditional Access](Documentation/M365-009-Conditional-Access.md) | ✅ Completed |
-| M365-010 | User Offboarding | ⏳ Planned |
+| M365-010 | [User Offboarding](Documentation/M365-010-User-Offboarding.md) | ✅ Completed |
 
 ---
 
@@ -434,6 +444,51 @@ Used the Conditional Access **What If** tool to simulate access to **Office 365 
 
 ---
 
+## M365-010 — User Offboarding
+
+Performed a controlled employee offboarding workflow for **Sarah Brown** across the Microsoft 365 Admin Center and Microsoft Entra admin center.
+
+Immediately secured the departing user's identity by blocking account sign-in and revoking active sign-in sessions.
+
+Reviewed Sarah Brown's existing group memberships before removing access associated with organizational security, collaboration, and distribution groups. During the process, an initial group membership removal attempt through the Microsoft Entra admin center encountered a service connection error. The Microsoft 365 Admin Center was used to complete the membership change and verify that no memberships remained displayed for the user.
+
+Reviewed the user's Exchange Online mailbox configuration before making licensing changes to prevent premature disruption or loss of access to organizational email data.
+
+Converted Sarah Brown's user mailbox to a **shared mailbox** to preserve historical business email and verified that **Austin Maggs** retained authorized access to the shared mailbox for business continuity.
+
+After the account was secured and mailbox data was preserved, removed Sarah Brown's **Microsoft 365 Business Premium** license to reclaim the license for future organizational use.
+
+Performed a final account review and verified that Sarah Brown's identity remained in the tenant with **sign-in blocked**. The user account was intentionally retained rather than permanently deleted.
+
+**Key Skills:**
+
+- Microsoft 365 user lifecycle management
+- Employee user offboarding
+- Microsoft Entra ID account administration
+- Account disablement
+- Sign-in blocking
+- Session revocation
+- Group membership review
+- Group access removal
+- Exchange Online mailbox administration
+- User mailbox to shared mailbox conversion
+- Shared mailbox administration
+- Mailbox delegation verification
+- Mailbox data preservation
+- Business continuity
+- Microsoft 365 license management
+- License reclamation
+- Identity and access management
+- Account security
+- Administrative troubleshooting
+- Administrative verification
+- Enterprise offboarding workflow execution
+- Enterprise technical documentation
+
+[View M365-010 Documentation](Documentation/M365-010-User-Offboarding.md)
+
+---
+
 # Learning Outcomes
 
 This repository demonstrates practical experience with Microsoft 365 cloud administration by documenting realistic enterprise support and administration scenarios using Microsoft's administrative tools and industry best practices.
@@ -444,10 +499,16 @@ Through the completed labs, this project currently demonstrates practical experi
 
 - Microsoft 365 user provisioning
 - Microsoft 365 license assignment
+- Microsoft 365 license reclamation
 - Password reset procedures
 - User account management
+- User lifecycle management
+- Employee user offboarding
+- Account disablement and sign-in blocking
+- Active session revocation
 - Security group creation
 - Security group membership management
+- Group membership review and removal
 - Identity and access management
 - Exchange Online administration
 - Exchange Admin Center
@@ -463,6 +524,9 @@ Through the completed labs, this project currently demonstrates practical experi
 - Email distribution management
 - Shared mailbox administration
 - Shared mailbox creation and configuration
+- User mailbox to shared mailbox conversion
+- Mailbox data preservation
+- Business continuity
 - User access management
 - Permission assignment
 - Access control
@@ -476,6 +540,12 @@ Through the completed labs, this project currently demonstrates practical experi
 - User authentication
 - End-user MFA registration and sign-in verification
 - Security control implementation
+- Conditional Access policy configuration
+- Conditional Access Report-only deployment
+- Conditional Access policy validation
+- Microsoft Entra What If tool usage
+- Privileged account security
+- Administrative lockout prevention
 - Exchange Online mail flow troubleshooting
 - Exchange Online Message Trace
 - Message Trace analysis
@@ -490,7 +560,7 @@ Through the completed labs, this project currently demonstrates practical experi
 - Administrative verification and troubleshooting
 - Enterprise technical documentation
 
-Additional Microsoft 365 administration scenarios will be added as the lab progresses.
+The 10-ticket Microsoft 365 Administration Lab is complete, demonstrating an end-to-end collection of practical Microsoft 365 administration scenarios covering user provisioning, identity and access management, Exchange Online administration, authentication security, Conditional Access, troubleshooting, and employee offboarding.
 
 ---
 
