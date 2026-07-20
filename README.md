@@ -1,7 +1,7 @@
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-8%2F10%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-9%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -78,6 +78,12 @@ Each ticket follows a structured enterprise documentation format including objec
 - Account Security
 - Security Control Implementation
 - Conditional Access
+- Conditional Access Policy Configuration
+- Conditional Access Report-Only Deployment
+- Conditional Access What If Validation
+- Directory Role Targeting
+- Privileged Account Security
+- Administrative Lockout Prevention
 - Exchange Online Administration
 - Exchange Admin Center
 - Exchange Online Mail Flow
@@ -145,7 +151,7 @@ Each ticket follows a structured enterprise documentation format including objec
 | M365-006 | [Shared Mailbox Creation and Management](Documentation/M365-006-Shared-Mailboxes.md) | ✅ Completed |
 | M365-007 | [Multi-Factor Authentication Deployment](Documentation/M365-007-MFA-Deployment.md) | ✅ Completed |
 | M365-008 | [Exchange Online Mail Flow Troubleshooting](Documentation/M365-008-Mail-Flow-Troubleshooting.md) | ✅ Completed |
-| M365-009 | Conditional Access | ⏳ Planned |
+| M365-009 | [Conditional Access](Documentation/M365-009-Conditional-Access.md) | ✅ Completed |
 | M365-010 | User Offboarding | ⏳ Planned |
 
 ---
@@ -342,6 +348,12 @@ The completed configuration was verified by confirming that Microsoft Authentica
 - End-user sign-in verification
 - Account security
 - Security control implementation
+- Conditional Access policy configuration
+- Directory role targeting
+- Conditional Access Report-only deployment
+- Conditional Access What If validation
+- Privileged account security
+- Administrative lockout prevention
 - Administrative verification
 
 [View M365-007 Documentation](Documentation/M365-007-MFA-Deployment.md)
@@ -385,6 +397,40 @@ The completed troubleshooting process confirmed that no Exchange Online mail-flo
 - Enterprise technical documentation
 
 [View M365-008 Documentation](Documentation/M365-008-Mail-Flow-Troubleshooting.md)
+
+---
+
+
+## M365-009 — Conditional Access
+
+Created and configured the **CA - Require MFA for Admin Access** Conditional Access policy through the Microsoft Entra admin center to strengthen authentication requirements for privileged administrative access.
+
+Configured the policy to target the **Global Administrator** directory role, apply to **All resources (formerly 'All cloud apps')**, and require **Multi-Factor Authentication (MFA)** as the grant control.
+
+Excluded the administrative account used to manage the lab tenant to reduce the risk of accidental administrative lockout and deployed the policy in **Report-only** mode to safely evaluate its behavior before enforcement.
+
+Verified the completed policy configuration by reviewing the Conditional Access policy details, confirming that one directory role was targeted, one user was excluded, all resources were included, and MFA was configured as the access requirement.
+
+Used the Conditional Access **What If** tool to simulate access to **Office 365 Exchange Online** from a **Windows** device using a **Browser** client. The evaluation placed the policy under **Policies that will not apply** with **Users and groups** identified as the reason, confirming that the configured administrative account exclusion functioned as intended.
+
+**Key Skills:**
+
+- Microsoft Entra ID administration
+- Conditional Access policy configuration
+- Role-based Conditional Access assignments
+- Directory role targeting
+- Multi-Factor Authentication enforcement planning
+- Privileged account security
+- Administrative lockout prevention
+- Conditional Access Report-only deployment
+- Conditional Access policy validation
+- Microsoft Entra What If tool usage
+- Identity and access management
+- Security policy documentation
+- Administrative verification
+- Troubleshooting and verification
+
+[View M365-009 Documentation](Documentation/M365-009-Conditional-Access.md)
 
 ---
 
