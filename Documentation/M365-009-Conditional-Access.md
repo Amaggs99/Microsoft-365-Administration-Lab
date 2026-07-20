@@ -42,7 +42,7 @@ To follow safe Conditional Access deployment practices in the lab environment, t
 
 Navigated to the Microsoft Entra admin center and opened **Conditional Access** to begin configuring a new policy.
 
-![Conditional Access Overview](Screenshots/M365-009-Conditional-Access/M365-009-01-Conditional-Access-Overview.png)
+![Conditional Access Overview](../Screenshots/M365-009-Conditional-Access/M365-009-01-Conditional-Access-Overview.png)
 
 ---
 
@@ -66,7 +66,7 @@ Under **Grant** controls, configured the policy to:
 
 The policy was left in **Report-only** mode rather than immediately enforced. This allows the policy's expected behavior to be evaluated before enabling it in a production-style deployment.
 
-![Report-Only Policy State](Screenshots/M365-009-Conditional-Access/M365-009-02-Report-Only-Policy-State.png)
+![Report-Only Policy State](../Screenshots/M365-009-Conditional-Access/M365-009-02-Report-Only-Policy-State.png)
 
 ---
 
@@ -76,7 +76,7 @@ Created the Conditional Access policy and confirmed that Microsoft Entra success
 
 `CA - Require MFA for Admin Access`
 
-![Conditional Access Policy Created](Screenshots/M365-009-Conditional-Access/M365-009-03-Conditional-Access-Policy-Created.png)
+![Conditional Access Policy Created](../Screenshots/M365-009-Conditional-Access/M365-009-03-Conditional-Access-Policy-Created.png)
 
 ---
 
@@ -88,7 +88,7 @@ The tenant showed one user-created Conditional Access policy:
 
 `CA - Require MFA for Admin Access`
 
-![Conditional Access Policy List](Screenshots/M365-009-Conditional-Access/M365-009-04-Conditional-Access-Policy-List.png)
+![Conditional Access Policy List](../Screenshots/M365-009-Conditional-Access/M365-009-04-Conditional-Access-Policy-List.png)
 
 ---
 
@@ -107,7 +107,7 @@ The policy details confirmed:
 
 This confirmed that the policy was correctly scoped to an administrative directory role, required MFA, targeted all resources, and contained an administrative account exclusion.
 
-![Conditional Access Policy Details](Screenshots/M365-009-Conditional-Access/M365-009-05-Conditional-Access-Policy-Details.png)
+![Conditional Access Policy Details](../Screenshots/M365-009-Conditional-Access/M365-009-05-Conditional-Access-Policy-Details.png)
 
 ---
 
@@ -131,7 +131,7 @@ The reason shown was:
 
 This result confirmed that the configured user exclusion was functioning as intended and that the excluded administrative account would not be affected by the policy under the simulated sign-in conditions.
 
-![Conditional Access What If Validation](Screenshots/M365-009-Conditional-Access/M365-009-06-Conditional-Access-What-If-Validation.png)
+![Conditional Access What If Validation](../Screenshots/M365-009-Conditional-Access/M365-009-06-Conditional-Access-What-If-Validation.png)
 
 ---
 
