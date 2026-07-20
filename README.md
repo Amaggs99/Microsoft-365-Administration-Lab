@@ -1,7 +1,7 @@
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Progress](https://img.shields.io/badge/Progress-7%2F10%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-8%2F10%20Completed-brightgreen)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Business%20Premium-blue)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft-Entra%20ID-0078D4)
 ![Platform](https://img.shields.io/badge/Platform-Cloud%20Administration-success)
@@ -80,6 +80,16 @@ Each ticket follows a structured enterprise documentation format including objec
 - Conditional Access
 - Exchange Online Administration
 - Exchange Admin Center
+- Exchange Online Mail Flow
+- Mail Flow Troubleshooting
+- Message Trace
+- Message Trace Analysis
+- Email Delivery Troubleshooting
+- Email Delivery Verification
+- Exchange Online Transport
+- Message Transport Analysis
+- Message Event Analysis
+- Mailbox Verification
 - Mailbox Administration
 - Mailbox Delegation
 - Full Access Permission Management
@@ -95,6 +105,8 @@ Each ticket follows a structured enterprise documentation format including objec
 - Group Membership Management
 - Email Distribution Management
 - Access Control
+- Troubleshooting Methodology
+- Root Cause Analysis
 - Administrative Verification
 - Microsoft 365 Security
 - Cloud Identity Management
@@ -132,7 +144,7 @@ Each ticket follows a structured enterprise documentation format including objec
 | M365-005 | [Distribution Group Creation and Management](Documentation/M365-005-Distribution-Groups.md) | ✅ Completed |
 | M365-006 | [Shared Mailbox Creation and Management](Documentation/M365-006-Shared-Mailboxes.md) | ✅ Completed |
 | M365-007 | [Multi-Factor Authentication Deployment](Documentation/M365-007-MFA-Deployment.md) | ✅ Completed |
-| M365-008 | Exchange Online Mail Flow Troubleshooting | ⏳ Planned |
+| M365-008 | [Exchange Online Mail Flow Troubleshooting](Documentation/M365-008-Mail-Flow-Troubleshooting.md) | ✅ Completed |
 | M365-009 | Conditional Access | ⏳ Planned |
 | M365-010 | User Offboarding | ⏳ Planned |
 
@@ -336,6 +348,46 @@ The completed configuration was verified by confirming that Microsoft Authentica
 
 ---
 
+## M365-008 — Exchange Online Mail Flow Troubleshooting
+
+Performed a controlled Exchange Online mail-flow test by sending an email from **Austin Maggs** to **Sarah Brown** with the subject **M365-008 Mail Flow Test**.
+
+Verified successful delivery from the end-user perspective by signing in to Sarah Brown's mailbox and confirming that the test message was received.
+
+Used the **Exchange Admin Center Message Trace** functionality to investigate the message's transport and delivery status. The initial Message Trace search returned no data, requiring the trace to be retried before the test message appeared in the search results.
+
+Opened the detailed Message Trace and verified that the message successfully progressed through the **Received → Processed → Delivered** mail-flow stages. The final status confirmed that the message was successfully delivered to the recipient's Inbox.
+
+Expanded the Message Events section and verified the underlying **Receive → Submit → Deliver** transport events, confirming that Exchange Online successfully received, processed, and delivered the message.
+
+The completed troubleshooting process confirmed that no Exchange Online mail-flow failure was present and demonstrated the use of Message Trace to distinguish Exchange transport issues from potential client-side or mailbox-level issues.
+
+**Key Skills:**
+
+- Microsoft 365 administration
+- Exchange Online administration
+- Exchange Admin Center
+- Exchange Online mail flow
+- Mail flow troubleshooting
+- Message Trace
+- Message Trace analysis
+- Email delivery troubleshooting
+- Email delivery verification
+- Exchange Online transport
+- Message transport analysis
+- Message event analysis
+- Mailbox verification
+- End-user verification
+- Troubleshooting methodology
+- Root cause analysis
+- Administrative verification
+- Microsoft 365 cloud administration
+- Enterprise technical documentation
+
+[View M365-008 Documentation](Documentation/M365-008-Mail-Flow-Troubleshooting.md)
+
+---
+
 # Learning Outcomes
 
 This repository demonstrates practical experience with Microsoft 365 cloud administration by documenting realistic enterprise support and administration scenarios using Microsoft's administrative tools and industry best practices.
@@ -378,6 +430,16 @@ Through the completed labs, this project currently demonstrates practical experi
 - User authentication
 - End-user MFA registration and sign-in verification
 - Security control implementation
+- Exchange Online mail flow troubleshooting
+- Exchange Online Message Trace
+- Message Trace analysis
+- Email delivery troubleshooting and verification
+- Exchange Online transport analysis
+- Message event analysis
+- Mailbox delivery verification
+- End-user mail flow verification
+- Troubleshooting methodology
+- Root cause analysis
 - Cloud-based administration
 - Administrative verification and troubleshooting
 - Enterprise technical documentation
