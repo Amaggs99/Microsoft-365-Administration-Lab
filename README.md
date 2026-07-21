@@ -1,3 +1,5 @@
+![Microsoft 365 Administration Lab](assets/Banner.png)
+
 # Microsoft 365 Administration Lab
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
