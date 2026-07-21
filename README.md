@@ -1,4 +1,4 @@
-![Microsoft 365 Administration Lab](assets/Banner.png)
+![Microsoft 365 Administration Lab](Assets/Banner.png)
 
 # Microsoft 365 Administration Lab
 
